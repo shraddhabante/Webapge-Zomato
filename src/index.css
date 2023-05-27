@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.homeImg{
+  width: 100%;
+  height: 650px;
+  /* border: 1px solid black; */
+  background-image: url(./assets/pizzaImg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+.homeText{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  padding-top: 120px;
+  width: 100%;
+  height: 650px;
+  border-radius: 10px;
+  color: white;
+}
